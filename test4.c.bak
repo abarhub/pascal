@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+//extern void test1_asm(void);
+
+int main(int argc,char *argv) 
+{
+	float f=8.6;
+
+	printf("Test pascal asm\n");
+
+	//test1_asm();
+	printf("float=%f",f);
+	printf("Fin du test\n");
+	return 0;
+
+}

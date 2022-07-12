@@ -1,0 +1,12 @@
+program toto;
+var toto:INTEGER;
+	tata,i:CHARACTER;
+	tutu,b:BOOLEAN;
+	u:real;
+	a:INTEGER;
+
+begin
+	a:=456;
+	a:=a+1;
+	a:=45+78
+end.

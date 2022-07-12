@@ -1,0 +1,1 @@
+redir -t test.bat

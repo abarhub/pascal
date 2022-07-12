@@ -1,0 +1,1 @@
+@redir -x -o toto.txt bmake -B -s

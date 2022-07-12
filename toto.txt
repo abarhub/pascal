@@ -1,0 +1,385 @@
+program	toto
+variable	toto1
+variable	tata
+variable	i
+variable	tutu
+variable	b
+variable	u
+variable	a
+variable	g
+variable	j
+variable	u1
+variable	s
+duree parse 0.0020 secondes
+Arbre toto
+Var s:STRING;
+u1:INTEGER;
+j:INTEGER;
+g:INTEGER;
+a:INTEGER;
+u:real;
+b:BOOLEAN;
+tutu:BOOLEAN;
+i:CHAR;
+tata:CHAR;
+toto1:INTEGER;
+Begin
+write('debut:');
+write(true);
+a:= 456 ;
+a:=( a + 1 );
+g:= 0 ;
+toto1:= 0 ;
+j:= 0 ;
+a:=( a + g );
+g:=(( j + a )+ toto1 );
+write(( 56 + 7 ));
+if ( a = toto1 ) then a:= 5 
+else a:= 6  endif;
+write(( a = 6 ));
+write(( a = a ));
+write(( a <> a ));
+if ( a = a ) then write( 1 )
+else write( 0 ) endif;
+s:='abc';
+write( s );
+write('1<5?');
+write(( 1 < 5 ));
+write('5<5?');
+write(( 5 < 5 ));
+write('6<5?');
+write(( 6 < 5 ));
+write('7>=6?');
+write(( 7 >= 6 ));
+write('6>=6?');
+write(( 6 >= 6 ));
+write('5>=6?');
+write(( 5 >= 6 ));
+write('a de 0 a 2');
+a:= 0 ;
+while ( a < 3 ) do Begin
+write( a );
+a:=( a + 1 )end;
+write('a de 3 a 1');
+a:= 3 ;
+repeat write( a );
+a:=( a - 1 ) until ( a <= 0 );
+write('coucou');
+write( not (( 6 = 6 )));
+write(true);
+write(false);
+write( not (true));
+write( not (false));
+a:= 8 ;
+write( a );
+write( - a );
+u:= 8.6 ;
+write( u );
+write( 0.00095 );
+u:= 1.4 ;
+write(( u + u ));
+write(( 4.7 + 8.3 ));
+write(( 1.6 <= 9.7 ));
+write(( 1.6 = 9.7 ));
+write(( 1.6 >= 9.7 ));
+a:=( 45 + 78 )end.
+correcte
+temps verification 0.0000 secondes
+Pas d'erreur sementique
+write(p11)
+p12:=1
+write(p12)
+p13:=456
+p4:=p13
+p14:=1
+p15:=p4+p14
+p4:=p15
+p16:=0
+p3:=p16
+p17:=0
+p10:=p17
+p18:=0
+p2:=p18
+p19:=p4+p3
+p4:=p19
+p20:=p2+p4
+p21:=p20+p10
+p3:=p21
+p22:=56
+p23:=7
+p24:=p22+p23
+write(p24)
+p25:=p4=p10
+if p25=0 jmp label_0
+p26:=5
+p4:=p26
+jmp label_1
+label_0:
+p27:=6
+p4:=p27
+label_1:
+p28:=6
+p29:=p4=p28
+write(p29)
+p30:=p4=p4
+write(p30)
+p31:=p4!=p4
+write(p31)
+p32:=p4=p4
+if p32=0 jmp label_2
+p33:=1
+write(p33)
+jmp label_3
+label_2:
+p34:=0
+write(p34)
+label_3:
+p0:=p35
+write(p0)
+write(p36)
+p37:=1
+p38:=5
+p39:=p37<=p38
+write(p39)
+write(p40)
+p41:=5
+p42:=5
+p43:=p41<=p42
+write(p43)
+write(p44)
+p45:=6
+p46:=5
+p47:=p45<=p46
+write(p47)
+write(p48)
+p49:=7
+p50:=6
+p51:=p49>=p50
+write(p51)
+write(p52)
+p53:=6
+p54:=6
+p55:=p53>=p54
+write(p55)
+write(p56)
+p57:=5
+p58:=6
+p59:=p57>=p58
+write(p59)
+write(p60)
+p61:=0
+p4:=p61
+label_4:
+p62:=3
+p63:=p4<=p62
+if p63=0 jmp label_5
+write(p4)
+p64:=1
+p65:=p4+p64
+p4:=p65
+jmp label_4
+label_5:
+write(p66)
+p67:=3
+p4:=p67
+label_6:
+write(p4)
+p68:=1
+p69:=p4-p68
+p4:=p69
+p70:=0
+p71:=p4<=p70
+if p71=0 jmp label_6
+write(p72)
+p73:=6
+p74:=6
+p75:=p73=p74
+p76:= not  p75
+write(p76)
+p77:=1
+write(p77)
+p78:=0
+write(p78)
+p79:=1
+p80:= not  p79
+write(p80)
+p81:=0
+p82:= not  p81
+write(p82)
+p83:=8
+p4:=p83
+write(p4)
+p84:=- p4
+write(p84)
+p85:=p86
+p5:=p85
+write(p5)
+p87:=p88
+write(p87)
+p89:=p90
+p5:=p89
+p91:=p5+p5
+write(p91)
+p92:=p93
+p94:=p95
+p96:=p92+p94
+write(p96)
+p97:=p98
+p99:=p100
+p101:=p97<=p99
+write(p101)
+p102:=p103
+p104:=p105
+p106:=p102=p104
+write(p106)
+p107:=p108
+p109:=p110
+p111:=p107>=p109
+write(p111)
+p112:=45
+p113:=78
+p114:=p112+p113
+p4:=p114
+Generation du code asm 80x86
+Affichage
+Fin d'affichage
+Ok pour nasm
+linkage...
+temps de linkage 1.3300 secondes
+Pas d'erreur durant le linkage
+Pas de JVM
+2eme generation de code java...(codej.j)
+Generation du code JVM
+Generated: codej.class
+Ok pour jasmin2
+Affichage de la table des types:
+0) int(4)
+1) char(1)
+2) bool(4)
+3) reel(4)
+4) string(256)
+5) double(8)
+6) long(8)
+Fin de la table des types
+temps generation + linkage 2.8990 secondes
+Pas d'erreur durant la generation
+Compilation reussi !!!
+table des symbol:
+116) p105_tmp:integer (temp Global)
+115) p104_tmp:integer (temp Global)
+114) p103_tmp:integer (temp Global)
+113) p102_tmp:integer (temp Global)
+112) p101_tmp:integer (temp Global)
+111) p100_tmp:boolean (temp Global)
+110) p99_tmp:real (temp Global)
+109) p98_tmp:real (temp Global)
+108) p97_tmp:real (temp Global)
+107) p96_tmp:real (temp Global)
+106) p95_tmp:boolean (temp Global)
+105) p94_tmp:real (temp Global)
+104) p93_tmp:real (temp Global)
+103) p92_tmp:real (temp Global)
+102) p91_tmp:real (temp Global)
+101) p90_tmp:boolean (temp Global)
+100) p89_tmp:real (temp Global)
+99) p88_tmp:real (temp Global)
+98) p87_tmp:real (temp Global)
+97) p86_tmp:real (temp Global)
+96) p85_tmp:real (temp Global)
+95) p84_tmp:real (temp Global)
+94) p83_tmp:real (temp Global)
+93) p82_tmp:real (temp Global)
+92) p81_tmp:real (temp Global)
+91) p80_tmp:real (temp Global)
+90) p79_tmp:real (temp Global)
+89) p78_tmp:real (temp Global)
+88) p77_tmp:real (temp Global)
+87) p76_tmp:real (temp Global)
+86) p75_tmp:real (temp Global)
+85) p74_tmp:real (temp Global)
+84) p73_tmp:integer (temp Global)
+83) p72_tmp:integer (temp Global)
+82) p71_tmp:integer (temp Global)
+81) p70_tmp:boolean (temp Global)
+80) p69_tmp:integer (temp Global)
+79) p68_tmp:boolean (temp Global)
+78) p67_tmp:boolean (temp Global)
+77) p66_tmp:boolean (temp Global)
+76) p65_tmp:integer (temp Global)
+75) p64_tmp:boolean (temp Global)
+74) p63_tmp:integer (temp Global)
+73) p62_tmp:integer (temp Global)
+72) p61_tmp:string (temp Global)
+71) p60_tmp:boolean (temp Global)
+70) p59_tmp:integer (temp Global)
+69) p58_tmp:integer (temp Global)
+68) p57_tmp:integer (temp Global)
+67) p56_tmp:integer (temp Global)
+66) p55_tmp:string (temp Global)
+65) p54_tmp:integer (temp Global)
+64) p53_tmp:integer (temp Global)
+63) p52_tmp:boolean (temp Global)
+62) p51_tmp:integer (temp Global)
+61) p50_tmp:integer (temp Global)
+60) p49_tmp:string (temp Global)
+59) p48_tmp:boolean (temp Global)
+58) p47_tmp:integer (temp Global)
+57) p46_tmp:integer (temp Global)
+56) p45_tmp:string (temp Global)
+55) p44_tmp:boolean (temp Global)
+54) p43_tmp:integer (temp Global)
+53) p42_tmp:integer (temp Global)
+52) p41_tmp:string (temp Global)
+51) p40_tmp:boolean (temp Global)
+50) p39_tmp:integer (temp Global)
+49) p38_tmp:integer (temp Global)
+48) p37_tmp:string (temp Global)
+47) p36_tmp:boolean (temp Global)
+46) p35_tmp:integer (temp Global)
+45) p34_tmp:integer (temp Global)
+44) p33_tmp:string (temp Global)
+43) p32_tmp:boolean (temp Global)
+42) p31_tmp:integer (temp Global)
+41) p30_tmp:integer (temp Global)
+40) p29_tmp:string (temp Global)
+39) p28_tmp:boolean (temp Global)
+38) p27_tmp:integer (temp Global)
+37) p26_tmp:integer (temp Global)
+36) p25_tmp:string (temp Global)
+35) p24_tmp:string (temp Global)
+34) p23_tmp:integer (temp Global)
+33) p22_tmp:integer (temp Global)
+32) p21_tmp:boolean (temp Global)
+31) p20_tmp:boolean (temp Global)
+30) p19_tmp:boolean (temp Global)
+29) p18_tmp:boolean (temp Global)
+28) p17_tmp:integer (temp Global)
+27) p16_tmp:integer (temp Global)
+26) p15_tmp:integer (temp Global)
+25) p14_tmp:boolean (temp Global)
+24) p13_tmp:integer (temp Global)
+23) p12_tmp:integer (temp Global)
+22) p11_tmp:integer (temp Global)
+21) p10_tmp:integer (temp Global)
+20) p9_tmp:integer (temp Global)
+19) p8_tmp:integer (temp Global)
+18) p7_tmp:integer (temp Global)
+17) p6_tmp:integer (temp Global)
+16) p5_tmp:integer (temp Global)
+15) p4_tmp:integer (temp Global)
+14) p3_tmp:integer (temp Global)
+13) p2_tmp:integer (temp Global)
+12) p1_tmp:boolean (temp Global)
+11) p0_tmp:string (temp Global)
+10) toto1_glob:integer (global)
+9) tata_glob:char (global)
+8) i_glob:char (global)
+7) tutu_glob:boolean (global)
+6) b_glob:boolean (global)
+5) u_glob:real (global)
+4) a_glob:integer (global)
+3) g_glob:integer (global)
+2) j_glob:integer (global)
+1) u1_glob:integer (global)
+0) s_glob:string (global)
+temp total 2.9040 secondes

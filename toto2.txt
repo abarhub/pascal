@@ -1,0 +1,160 @@
+Turbo Dump  Version 5.0.16.12 Copyright (c) 1988, 2000 Inprise Corporation
+                     Display of File CODE4.OBJ
+
+000000 THEADR  code4.asm
+00000E COMENT  Purge: Yes, List: Yes, Class: 0   (000h)
+    Translator: The Netwide Assembler 0.98
+00002F LNAMES
+    Name  1: ''
+    Name  2: '_TEXT'
+    Name  3: 'CODE'
+    Name  4: '_DATA'
+    Name  5: 'DATA'
+00004A SEGDEF 1 : _TEXT           DWORD PUBLIC  USE32 Class 'CODE'	 Length: 02b5
+000054 SEGDEF 2 : _DATA           DWORD PUBLIC  USE32 Class 'DATA'	 Length: 0228
+00005E PUBDEF  '_test1_asm'            Segment: _TEXT:0000
+000072 EXTDEF 1 : '_printf'             Type: 0  
+00007F COMENT  Purge: Yes, List: No , Class: 162 (0A2h)
+    Linker - Pass Two Marker.
+000086 LEDATA  Segment: _TEXT          Offset: 0000  Length: 02B5
+    0000: B8 C8 01 00 00 A3 98 00  00 00 A1 98 00 00 00 A3   ................
+    0010: 28 00 00 00 B8 01 00 00  00 A3 A8 00 00 00 A1 28   (..............(
+    0020: 00 00 00 03 05 A8 00 00  00 A3 B8 00 00 00 A1 B8   ................
+    0030: 00 00 00 A3 28 00 00 00  B8 00 00 00 00 A3 C8 00   ....(...........
+    0040: 00 00 A1 C8 00 00 00 A3  18 00 00 00 B8 00 00 00   ................
+    0050: 00 A3 D8 00 00 00 A1 D8  00 00 00 A3 88 00 00 00   ................
+    0060: B8 00 00 00 00 A3 E8 00  00 00 A1 E8 00 00 00 A3   ................
+    0070: 08 00 00 00 A1 28 00 00  00 03 05 18 00 00 00 A3   .....(..........
+    0080: F8 00 00 00 A1 F8 00 00  00 A3 28 00 00 00 A1 08   ..........(.....
+    0090: 00 00 00 03 05 28 00 00  00 A3 08 01 00 00 A1 08   .....(..........
+    00A0: 01 00 00 03 05 88 00 00  00 A3 18 01 00 00 A1 18   ................
+    00B0: 01 00 00 A3 18 00 00 00  B8 38 00 00 00 A3 28 01   .........8....(.
+    00C0: 00 00 B8 07 00 00 00 A3  38 01 00 00 A1 28 01 00   ........8....(..
+    00D0: 00 03 05 38 01 00 00 A3  48 01 00 00 FF 35 48 01   ...8....H....5H.
+    00E0: 00 00 68 00 00 00 00 E8  00 00 00 00 81 C4 08 00   ..h.............
+    00F0: 00 00 A1 28 00 00 00 3B  05 88 00 00 00 74 0F C7   ...(...;.....t..
+    0100: 05 58 01 00 00 01 00 00  00 E9 0A 00 00 00 C7 05   .X..............
+    0110: 58 01 00 00 00 00 00 00  81 3D 58 01 00 00 00 00   X........=X.....
+    0120: 00 00 75 19 B8 05 00 00  00 A3 68 01 00 00 A1 68   ..u.......h....h
+    0130: 01 00 00 A3 28 00 00 00  E9 14 00 00 00 B8 06 00   ....(...........
+    0140: 00 00 A3 78 01 00 00 A1  78 01 00 00 A3 28 00 00   ...x....x....(..
+    0150: 00 B8 06 00 00 00 A3 88  01 00 00 A1 28 00 00 00   ............(...
+    0160: 3B 05 88 01 00 00 74 0F  C7 05 98 01 00 00 01 00   ;.....t.........
+    0170: 00 00 E9 0A 00 00 00 C7  05 98 01 00 00 00 00 00   ................
+    0180: 00 FF 35 98 01 00 00 68  00 00 00 00 E8 00 00 00   ..5....h........
+    0190: 00 81 C4 08 00 00 00 A1  28 00 00 00 3B 05 28 00   ........(...;.(.
+    01A0: 00 00 74 0F C7 05 A8 01  00 00 01 00 00 00 E9 0A   ..t.............
+    01B0: 00 00 00 C7 05 A8 01 00  00 00 00 00 00 FF 35 A8   ..............5.
+    01C0: 01 00 00 68 00 00 00 00  E8 00 00 00 00 81 C4 08   ...h............
+    01D0: 00 00 00 A1 28 00 00 00  3B 05 28 00 00 00 75 0F   ....(...;.(...u.
+    01E0: C7 05 B8 01 00 00 01 00  00 00 E9 0A 00 00 00 C7   ................
+    01F0: 05 B8 01 00 00 00 00 00  00 FF 35 B8 01 00 00 68   ..........5....h
+    0200: 00 00 00 00 E8 00 00 00  00 81 C4 08 00 00 00 A1   ................
+    0210: 28 00 00 00 3B 05 28 00  00 00 74 0F C7 05 C8 01   (...;.(...t.....
+    0220: 00 00 01 00 00 00 E9 0A  00 00 00 C7 05 C8 01 00   ................
+    0230: 00 00 00 00 00 81 3D C8  01 00 00 00 00 00 00 75   ......=........u
+    0240: 25 B8 01 00 00 00 A3 D8  01 00 00 FF 35 D8 01 00   %...........5...
+    0250: 00 68 00 00 00 00 E8 00  00 00 00 81 C4 08 00 00   .h..............
+    0260: 00 E9 20 00 00 00 B8 00  00 00 00 A3 E8 01 00 00   .. .............
+    0270: FF 35 E8 01 00 00 68 00  00 00 00 E8 00 00 00 00   .5....h.........
+    0280: 81 C4 08 00 00 00 B8 2D  00 00 00 A3 F8 01 00 00   .......-........
+    0290: B8 4E 00 00 00 A3 08 02  00 00 A1 F8 01 00 00 03   .N..............
+    02A0: 05 08 02 00 00 A3 18 02  00 00 A1 18 02 00 00 A3   ................
+    02B0: 28 00 00 00 C3                                     (....
+000342 FIXU32
+    FixUp: 006  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 00b  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 010  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 01a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 01f  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 025  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 02a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 02f  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 034  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 03e  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 043  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 048  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 052  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 057  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 05c  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 066  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 06b  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 070  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 075  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 07b  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 080  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 085  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 08a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 08f  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 095  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 09a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 09f  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0a5  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0aa  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0af  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0b4  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0be  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0c8  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0cd  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0d3  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0d8  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0de  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0e3  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0e8  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[1]
+    FixUp: 0f3  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 0f9  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 101  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 110  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 11a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 12a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 12f  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 134  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 143  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 148  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 14d  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 157  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 15c  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 162  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 16a  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 179  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 183  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 188  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 18d  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[1]
+    FixUp: 198  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 19e  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1a6  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1b5  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1bf  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1c4  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1c9  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[1]
+    FixUp: 1d4  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1da  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1e2  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1f1  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 1fb  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 200  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 205  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[1]
+    FixUp: 210  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 216  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 21e  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 22d  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 237  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 247  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 24d  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 252  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 257  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[1]
+    FixUp: 26c  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 272  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 277  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 27c  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[1]
+    FixUp: 28c  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 296  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 29b  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 2a1  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 2a6  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 2ab  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 2b0  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+0004B6 LEDATA  Segment: _DATA          Offset: 0000  Length: 0008
+    0000: 69 6E 74 3D 25 64 0A 00                            int=%d..
+0004C5 MODEND
+

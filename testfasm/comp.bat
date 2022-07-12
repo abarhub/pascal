@@ -1,0 +1,1 @@
+fasm testfasm3.asm testfasm3.exe

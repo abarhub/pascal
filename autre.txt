@@ -1,0 +1,20 @@
+char *token_name(i)
+int i;
+{
+    static char buf[10];
+    switch(i)
+    {
+	default  : if(i<256)
+		   {
+		       if(i<32 || i>126)
+			   sprintf(buf, "0%o", i);
+		       else
+		           sprintf(buf, "'%c'", i);
+		       return buf;
+		   }
+		   else
+		       return("<Unknown token>");
+	case   0 : return("<End of input>");'
+awk '{printf"	case %d : return(\"%s\");\n",  $4, $3}'	< y.tab.h
+echo '    }
+}

@@ -1,0 +1,55 @@
+Turbo Dump  Version 5.0.16.12 Copyright (c) 1988, 2000 Inprise Corporation
+                  Display of File MAIN_PASCAL.OBJ
+
+000000 THEADR  main_pascal.c
+000012 COMENT  Purge: Yes, List: Yes, Class: 0   (000h)
+    Translator: Borland C++ 5.5
+000028 COMENT  Purge: Yes, List: Yes, Class: 232 (0E8h)
+    Source File 1: main_pascal.c         02/27/2002  07:40:19 pm
+000041 COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    Dependency File: c:\Bcc55\include\_nfile.h  01/31/2000  05:00:00 am
+000065 COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    Dependency File: c:\Bcc55\include\_null.h  01/31/2000  05:00:00 am
+000088 COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    Dependency File: c:\Bcc55\include\_defs.h  01/31/2000  05:00:00 am
+0000AB COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    Dependency File: c:\Bcc55\include\_stddef.h  01/31/2000  05:00:00 am
+0000D0 COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    Dependency File: c:\Bcc55\include\stdio.h  01/31/2000  05:00:00 am
+0000F3 COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    Dependency File: main_pascal.c         02/27/2002  07:40:19 pm
+00010B COMENT  Purge: Yes, List: Yes, Class: 233 (0E9h)
+    End of Dependency List
+000111 LNAMES
+    Name  1: '_TEXT'
+    Name  2: 'CODE'
+    Name  3: ''
+    Name  4: '_DATA'
+    Name  5: 'DATA'
+    Name  6: 'DGROUP'
+    Name  7: '_BSS'
+    Name  8: 'BSS'
+00013C SEGDEF 1 : _TEXT           DWORD PUBLIC  USE32 Class 'CODE'	 Length: 0020
+000146 SEGDEF 2 : _DATA           DWORD PUBLIC  USE32 Class 'DATA'	 Length: 0020
+000150 SEGDEF 3 : _BSS            DWORD PUBLIC  USE32 Class 'BSS'	 Length: 0000
+00015A GRPDEF Group: DGROUP
+    Segment: _BSS           
+    Segment: _DATA          
+000163 EXTDEF 1 : '__setargv__'         Type: 0  
+        2 : '_printf'             Type: 0  
+        3 : '_test1_asm'          Type: 0  
+000189 PUBDEF  '_main'                 Segment: _TEXT:0000
+000198 LEDATA  Segment: _TEXT          Offset: 0000  Length: 0020
+    0000: 55 8B EC 68 00 00 00 00  E8 00 00 00 00 59 E8 00   U..h.........Y..
+    0010: 00 00 00 68 11 00 00 00  E8 00 00 00 00 59 5D C3    ...h.........Y].
+0001BF FIXU32
+    FixUp: 004  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 009  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[2]
+    FixUp: 00f  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[3]
+    FixUp: 014  Mode: Seg  Loc: Offset32    Frame: TARGET  Target: SI[2]
+    FixUp: 019  Mode: Self Loc: Offset32    Frame: TARGET  Target: EI[2]
+0001D7 LEDATA  Segment: _DATA          Offset: 0000  Length: 0020
+    0000: 54 65 73 74 20 70 61 73  63 61 6C 20 61 73 6D 0A   Test pascal asm.
+    0010: 00 46 69 6E 20 64 75 20  74 65 73 74 0A 00 00 00    .Fin du test....
+0001FE MODE32
+

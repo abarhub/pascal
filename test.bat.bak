@@ -1,0 +1,23 @@
+@echo debut du test
+
+main.exe >NULL
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
+main.exe
